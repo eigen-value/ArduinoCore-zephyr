@@ -1,7 +1,7 @@
 &i2c4 {
 	status = "okay";
-	pinctrl-0 = <&i2c4_scl_pd12 &i2c4_sda_pd13>;
-	pinctrl-1 = <&i2c4_scl_pf14 &i2c4_sda_pf15>;
+	pinctrl-1 = <&i2c4_scl_pd12 &i2c4_sda_pd13>;
+	pinctrl-0 = <&i2c4_scl_pf14 &i2c4_sda_pf15>;
 	pinctrl-names = "default", "sleep"; /* TODO: sleep is jmisc mux */
 	clock-frequency = <I2C_BITRATE_FAST>;
 
